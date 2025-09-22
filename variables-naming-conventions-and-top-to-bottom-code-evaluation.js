@@ -26,7 +26,9 @@ Things to reflect on:
 
 let userName = 'Alice';
 let qty = 5;
-let totalCost = 20;
-let message = userName + ' bought ' + qty + ' items for $' + totalCost + '.';
+let itemName = 'cupcake';
+let itemCost = 4;
+let totalCost = itemCost * qty;
+let message = userName + ' bought ' + qty + ' ' + itemName + 's for $' + totalCost + '.';
 
 console.log(message);
