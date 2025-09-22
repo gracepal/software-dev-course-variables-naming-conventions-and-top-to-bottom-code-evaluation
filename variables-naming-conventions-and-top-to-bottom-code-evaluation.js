@@ -21,12 +21,12 @@ Things to reflect on:
   - Why is it important to use meaningful variable names?
   - What are the common pitfalls to avoid when naming variables?
   - How do clear variable names benefit team collaboration?
-  
+
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userName = 'Alice';
+let qty = 5;
+let totalCost = 20;
+let message = userName + ' bought ' + qty + ' items for $' + totalCost + '.';
 
-console.log(d);
+console.log(message);
